@@ -1,4 +1,4 @@
-#//Hello World
+//Hello World
 
 var greeting="✌ Hello world"
 var number="123"
@@ -12,7 +12,7 @@ console.log(typeof boolean);
 var artist = "Beyonce Knowles";
 console.log(artist)
 
-#//Conditions
+//Conditions
 
 var happy = false;
 if (happy === true) {
@@ -28,7 +28,7 @@ console.log("even");
 console.log("odd")
 }
 
-#//Loops
+//Loops
 
 for (var i=0; i<=100; i=i+2) {
   console.log(i)
@@ -57,7 +57,7 @@ for (var i=0; i<(animals.length); i++) {
 console.log(animals[i])
 }
 
-#//Objects
+//Objects
 
 var person = {
   firstName: "Virginia",
@@ -88,7 +88,7 @@ function ageDifference (x,y) {
 }
 ageDifference (youngest.age, oldest.age);
 
-#//Challenge 2 Famous Writers
+//Challenge 2 Famous Writers
 
 var writers = [
   {
@@ -128,7 +128,7 @@ console.log("Hi, my name is " + writers[i].firstName+ " " + writers[i].lastName 
 }
 }
 
-#//Challenge 3 Fix the code 
+//Challenge 3 Fix the code 
 
 var first_number = 13;
 var second_number = 27;
@@ -139,7 +139,7 @@ function add (x,y) {
 
 add (first_number, second_number);
 
-#//Challenge 4 FizzBuzz
+//Challenge 4 FizzBuzz
 
 for (var i=0; i<=100; i++) {
   if (i%3===0) {
