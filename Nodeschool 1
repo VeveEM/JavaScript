@@ -1,3 +1,5 @@
+#//Hello World
+
 var greeting="✌ Hello world"
 var number="123"
 var boolean="true"
@@ -9,6 +11,8 @@ console.log(typeof number);
 console.log(typeof boolean);
 var artist = "Beyonce Knowles";
 console.log(artist)
+
+#//Conditions
 
 var happy = false;
 if (happy === true) {
@@ -24,19 +28,128 @@ console.log("even");
 console.log("odd")
 }
 
-//Loops
+#//Loops
+
 for (var i=0; i<=100; i=i+2) {
   console.log(i)
 }
 
 //Functions
-function add (x,y) {
-  console.log(x);
-  console.log(y);
-}
 
+function add (x,y) {
+  return x + y;
+}
 add(2,3);
 
 var greeting="✌ Hello world"
 var cat = "🐱"
 console.log(`${greeting} to everyone ${cat}`)
+
+function multiply (y,m) {
+  return y * m;
+  }
+multiply (2,9);
+
+var animals=["tiger", "puppy", "snake", "llama"]
+console.log(animals[1]);
+
+for (var i=0; i<(animals.length); i++) {
+console.log(animals[i])
+}
+
+#//Objects
+
+var person = {
+  firstName: "Virginia",
+  lastName: "Woolf",
+  occupation: "writer",
+  age: 59,
+  alive: false
+};
+
+console.log(person.firstName);
+
+console.log("Hi, my name is " + person.firstName+ " " + person.lastName + ". I am " + person.age + " years old, and work as a " + person.occupation);
+
+//Challenge 1 Age difference
+
+var youngest = {
+  name: 'Maya',
+  age: 13
+};
+
+var oldest = {
+  name: 'Joy',
+  age: 83
+};
+
+function ageDifference (x,y) {
+  return y-x;
+}
+ageDifference (youngest.age, oldest.age);
+
+#//Challenge 2 Famous Writers
+
+var writers = [
+  {
+    firstName: "Virginia",
+    lastName: "Woolf",
+    occupation: "writer",
+    age: 59,
+    alive: false
+  },
+  {
+    firstName: "Zadie",
+    lastName: "Smith",
+    occupation: "writer",
+    age: 41,
+    alive: true
+  },
+  {
+    firstName: "Jane",
+    lastName: "Austen",
+    occupation: "writer",
+    age: 41,
+    alive: false
+  },
+  {
+    firstName: "bell",
+    lastName: "hooks",
+    occupation: "writer",
+    age: 64,
+    alive: true
+  },
+];
+
+for (var i=0; i<=3; i++) {
+if (writers[i].alive === true) 
+ {
+console.log("Hi, my name is " + writers[i].firstName+ " " + writers[i].lastName + ". I am " + writers[i].age + " years old, and work as a " + writers[i].occupation + ".");
+}
+}
+
+#//Challenge 3 Fix the code 
+
+var first_number = 13;
+var second_number = 27;
+
+function add (x,y) {
+  return x + y;
+}
+
+add (first_number, second_number);
+
+#//Challenge 4 FizzBuzz
+
+for (var i=0; i<=100; i++) {
+  if (i%3===0) {
+    if (i%5 === 0) {
+      console.log ("BuzzFizz");
+    } else
+      console.log ("Fizz");
+  } else if (i%5 ===0) {
+    console.log("Buzz");
+    
+  } else
+  console.log(i);
+}
