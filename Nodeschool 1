@@ -1,0 +1,40 @@
+var greeting="✌ Hello world"
+var number="123"
+var boolean="true"
+
+console.log(greeting);
+console.log(typeof greeting);
+console.log(typeof number);
+//checking the type of true
+console.log(typeof boolean);
+var artist = "Beyonce Knowles";
+console.log(artist)
+
+var happy = false;
+if (happy === true) {
+  console.log("Hello world");
+} else {
+  console.log(':(');
+} 
+
+number=26
+if (number%2 ===0) {
+console.log("even");
+} else {
+console.log("odd")
+}
+
+for (var i=0; i<=100; i=i+2) {
+  console.log(i)
+}
+
+function add (x,y) {
+  console.log(x);
+  console.log(y);
+}
+
+add(2,3);
+
+var greeting="✌ Hello world"
+var cat = "🐱"
+console.log(`${greeting} to everyone ${cat}`)
