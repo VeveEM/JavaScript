@@ -24,10 +24,12 @@ console.log("even");
 console.log("odd")
 }
 
+//Loops
 for (var i=0; i<=100; i=i+2) {
   console.log(i)
 }
 
+//Functions
 function add (x,y) {
   console.log(x);
   console.log(y);
